@@ -1,0 +1,13 @@
+yolo_model:
+
+  config_file:
+    name: yolov3-tiny-custom.cfg
+  weight_file:
+    name: yolov3-tiny-custom_last.weights
+  threshold:
+    value: 0.5
+  detection_classes:
+    names:
+      - square
+      - circle
+      - triangle
